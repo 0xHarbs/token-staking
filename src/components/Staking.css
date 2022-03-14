@@ -1,0 +1,136 @@
+.staking {
+	padding: 64px 100px ;
+	color: #fff;
+}
+
+.staking__title {
+	margin-bottom: 60px;
+	line-height: 40px;
+	color: #333;
+	text-align: center;
+}
+
+.staking__row {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+	margin-right: -15px;
+	margin-left: -15px;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+
+.stake__col {
+	margin:  0px 25px;
+	flex: 1;
+	max-width: 40%;
+	flex-basis: 10%;
+}
+
+.staking__textWrapper {
+	padding: 30px 40px;
+	max-width: 100%;
+	border: 1px solid lightgray;
+	border-radius: 40px;
+	background-color: #1c2237;
+}
+
+.col__stats {
+	line-height: 25px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.staking__input {
+	flex: 1;
+	border: none;
+	border-radius: 10px;
+	padding: 8px 12px;
+	margin: 10px  0px 20px 0px;
+}
+
+.icon__wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.staking__inputHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-top: 10px;
+}
+
+.staking__inputBox {
+	display: flex;
+}
+
+.staking__submit {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.staking__colInfo  > p {
+	font-size: 12px;
+}
+
+.col__stats > p {
+	font-size: 12px;
+	letter-spacing: 1px;
+	color:  #E40544;
+	margin-left: ;
+}
+
+span {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.stake__button {
+  padding: 8px 24px;
+  margin: 0px 2px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #E40544;
+  color: #fff;
+  border: 1px solid #E40544;
+  font-weight: bold;
+  flex: 1;
+}
+
+.unstake__button {
+  padding: 8px 24px;
+  margin: 0px 2px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #E40544;
+  font-weight: bold;
+  flex: 1;
+}
+
+.stake__button:hover {
+  background-color: transparent;
+}
+
+.unstake__button:hover {
+  background-color: #E40544;
+}
+
+input[type=number]:focus {
+	outline: none;
+}

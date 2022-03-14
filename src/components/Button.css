@@ -1,0 +1,44 @@
+.btn__primary {
+  padding: 8px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #E40544;
+  color: #fff;
+  border: 1px solid #E40544;
+  font-weight: bold;
+}
+
+.btn__outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.btn__medium {
+  font-size: 18px;
+}
+
+.btn__large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn__large:hover, .btn__medium:hover {
+  transition: all 0.3s ease-out;
+}
+
+.btn__outline:hover {
+  background-color: #fff;
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
+
+.btn__primary:hover {
+  background-color: transparent;
+  color: #fff;
+}
